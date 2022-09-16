@@ -1,0 +1,23 @@
+table.rewards-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.rewards-table thead {
+    position: sticky;
+    top: 0;
+    border: 1px solid #dddddd;
+    background-color: #00ffaf;
+}
+
+.rewards-table td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.rewards-table tr:nth-child(even) {
+    background-color: #dddddd;
+}
